@@ -1,17 +1,10 @@
-fun main(){
-    val a = 111;
-    val b = 2222;
+fun calc(a:Int, b:Int,c:Int){
+    println("Addition of $a, $b and $c : ${a+b+c}")
+    println("Subtraction of $a, $b and $c : ${a-b-c}")
+    println("Multiplication of $a, $b and $c : ${a*b*c}")
+    println("Division of $b and $a : ${b/a}")
+}
 
-}
-fun add(a: Int, b: Int): Int{
-    return a+b;
-}
-fun subtract(a: Int, b: Int): Int{
-    return a-b;
-}
-fun multiply(a: Int, b: Int): Int{
-    return a*b;
-}
-fun divide(a: Int, b: Int): Int{
-    return a/b;
+fun main(){
+    calc(22,10,2002)
 }
